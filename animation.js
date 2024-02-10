@@ -196,7 +196,8 @@
       ctx.font = '12px "微软雅黑", "Verdana"';
       ctx.fillText("Dear Sahana,", 23, 10);
       ctx.font = '7px "微软雅黑", "Verdana"';
-      ctx.fillText("(shortie)", 60, 17);
+      ctx.rotate(-Math.PI/2);
+      ctx.fillText("(hi shortie)", -25, 360);
       ctx.restore();
     };
 
