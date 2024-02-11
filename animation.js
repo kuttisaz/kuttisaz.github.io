@@ -237,11 +237,11 @@
       ctx.lineCap = "round";
       ctx.lineJoin = "round";
       ctx.translate(point.x, point.y);
-      ctx.beginPath();
-      ctx.moveTo(0, 0);
-      ctx.lineTo(length / 2, 0);
-      ctx.lineTo(-length / 2, 0);
-      ctx.stroke();
+      //ctx.beginPath();
+      //ctx.moveTo(0, 0);
+      //ctx.lineTo(length / 2, 0);
+      //ctx.lineTo(-length / 2, 0);
+      //ctx.stroke();
       ctx.restore();
 
       if (length < width) {
