@@ -1,4 +1,4 @@
-﻿const startTypewriter = async (element, speed = 5) => {
+﻿const startTypewriter = async (element, speed = 40) => {
   element.style.display = "block";
   const str = element.innerHTML;
   let progress = 0;
