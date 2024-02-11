@@ -1,4 +1,4 @@
-﻿const startTypewriter = async (element, speed = 25) => {
+﻿const startTypewriter = async (element, speed = 5) => {
   element.style.display = "block";
   const str = element.innerHTML;
   let progress = 0;
@@ -194,10 +194,10 @@
       ctx.moveTo(0, 0);
       ctx.scale(0.75, 0.75);
       ctx.font = '12px "微软雅黑", "Verdana"';
-      ctx.fillText("Dear Sahana,", 23, 10);
+      ctx.fillText("Dear Sahana,", 23, 13);
       ctx.font = '7px "微软雅黑", "Verdana"';
       ctx.rotate(-Math.PI/2);
-      ctx.fillText("(hi shortie)", -25, 360);
+      ctx.fillText("hi shortie", -30, 380);
       ctx.restore();
     };
 

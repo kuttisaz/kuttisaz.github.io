@@ -131,7 +131,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     const y = (e.clientY - rect.top) / scaleFactor;
     if (seed.hover(x, y)) {
       canvas.removeEventListener("click", this);
-      document.getElementById("bgm").play();
+      let mybgm = document.getElementById("bgm");
+      mybgm.volume = 0.18;
+      mybgm.play();
       hold = false;
     }
   });
